@@ -36,10 +36,7 @@ brew install skhd
 brew install sketchybar
 brew install borders
 
-### Science
-brew install mactex
-brew install hdf5
-brew install gnuplot
+
 
 ### Terminal
 brew install neovim
@@ -69,8 +66,6 @@ brew install --cask orion
 ### Office
 brew install --cask inkscape
 brew install --cask libreoffice
-brew install --cask zoom
-brew install --cask meetingbar
 brew install --cask skim
 brew install --cask vlc
 
@@ -81,7 +76,6 @@ brew install --cask cutter
 brew install --cask sloth
 
 ### Nice to have
-brew install --cask alfred
 brew install --cask spotify
 
 ### Fonts

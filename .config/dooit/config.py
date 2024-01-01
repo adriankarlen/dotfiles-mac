@@ -1,17 +1,17 @@
 from helpers import *
 
-bg = "#1e1e2e"
-black = "#181926"
-white = "#cad3f5"
-grey = "#939ab7"
-red = "#ed8796"
-frost_green = "#94e2d5"
-cyan = "#74c7ec"
-green = "#a6e3a1"
-yellow = "#f9e2af"
-blue = "#89b4fa"
-magenta = "#cba6f7"
-orange = "#f5a97f"
+bg = "#191724"
+black = "#1f1d2e"
+white = "#e0def4"
+grey = "#908caa"
+red = "#eb6f92"
+frost_green = "#31748f"
+cyan = "#9ccfd8"
+green = "#31748f"
+yellow = "#f6c177"
+blue = "#9ccfd8"
+magenta = "#c4a7e7"
+orange = "#f6c177"
 
 BACKGROUND = bg
 BAR_BACKGROUND = bg
@@ -21,7 +21,7 @@ TODOS_BACKGROUND = bg
 BORDER_DIM = white
 BORDER_LIT = blue
 
-BORDER_TITLE_DIM = grey, bg 
+BORDER_TITLE_DIM = grey, bg
 BORDER_TITLE_LIT = black, blue
 
 SEARCH_COLOR = red # highlight color when searching
@@ -33,7 +33,7 @@ WORKSPACE =  {
     "highlight": white,
     "editing": orange,
     "pointer": " ",
-    "children_hint": "(+{count})", 
+    "children_hint": "(+{count})",
 }
 
 COLUMN_ORDER = ["description", "due", "urgency"]  # order of columns for todo pane
@@ -55,14 +55,14 @@ TODO = {
     "pending_icon": f"[{yellow}][/{yellow}] ", # icon for pending todo
     "overdue_icon": f"[{red}][/{red}] ", # icon for overdue todo
     "urgency1_icon": "~", # icon for urgency 1 (lowest)
-    "urgency2_icon": "", 
+    "urgency2_icon": "",
     "urgency3_icon": "",
     "urgency4_icon": "",
-    
+
     # See workspace children hint for details
     # VARS
     # remaining: Todos remaining
-    # done     : Todos done 
+    # done     : Todos done
     # total    : Total todos
     "children_hint": " ({done}/{total})",
 }
