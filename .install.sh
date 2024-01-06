@@ -19,42 +19,25 @@ brew tap koekeishiya/formulae
 ## Formulae
 echo "Installing Brew Formulae..."
 ### Essentials
-brew install gsl
-brew install llvm
-brew install boost
-brew install libomp
-brew install armadillo
-brew install wget
+brew install n
 brew install jq
 brew install ripgrep
-brew install bear
 brew install mas
-brew install gh
 brew install ifstat
 brew install switchaudio-osx
 brew install skhd
 brew install sketchybar
+brew install yabai
 brew install borders
 
-
-
 ### Terminal
-brew install neovim
 brew install starship
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 ### Nice to have
-brew install lulu
 brew install btop
-brew install svim
 brew install lazygit
-brew install wireguard-go
-brew install dooit
-
-## Custom HEAD only forks (personal yabai and nnn forks)
-brew install fyabai --head
-brew install fnnn --head
 
 ## Casks
 echo "Installing Brew Casks..."
@@ -66,7 +49,6 @@ brew install --cask orion
 ### Office
 brew install --cask inkscape
 brew install --cask libreoffice
-brew install --cask skim
 brew install --cask vlc
 
 ### Reversing
@@ -80,15 +62,9 @@ brew install --cask spotify
 
 ### Fonts
 brew install --cask sf-symbols
-brew install --cask font-hack-nerd-font
-brew install --cask font-jetbrains-mono
-brew install --cask font-fira-code
 
-# Mac App Store Apps
-echo "Installing Mac App Store Apps..."
-mas install 1451685025 #Wireguard
-mas install 497799835 #xCode
-mas install 1480933944 #Vimari
+### Node & NPM
+n latest
 
 # macOS Settings
 echo "Changing macOS defaults..."
@@ -142,23 +118,6 @@ curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v1.0.
 
 source $HOME/.zshrc
 cfg config --local status.showUntrackedFiles no
-
-# Python Packages (mainly for data science)
-echo "Installing Python Packages..."
-curl https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh | sh
-source $HOME/.zshrc
-conda install -c apple tensorflow-deps
-conda install -c conda-forge pybind11
-conda install matplotlib
-conda install jupyterlab
-conda install seaborn
-conda install opencv
-conda install joblib
-conda install pytables
-pip install tensorflow-macos
-pip install tensorflow-metal
-pip install debugpy
-pip install sklearn
 
 # Start Services
 echo "Starting Services (grant permissions)..."
