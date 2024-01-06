@@ -24,6 +24,7 @@ brew install jq
 brew install ripgrep
 brew install mas
 brew install ifstat
+brew install gh
 brew install switchaudio-osx
 brew install skhd
 brew install sketchybar
