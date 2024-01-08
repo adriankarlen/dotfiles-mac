@@ -52,12 +52,6 @@ brew install --cask inkscape
 brew install --cask libreoffice
 brew install --cask vlc
 
-### Reversing
-brew install --cask machoview
-brew install --cask hex-fiend
-brew install --cask cutter
-brew install --cask sloth
-
 ### Nice to have
 brew install --cask spotify
 
